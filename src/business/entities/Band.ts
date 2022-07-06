@@ -8,6 +8,7 @@ export class Band {
    }
    
    export interface BandInputDTO {
+    id: string;
     name: string;
     music_genre: string;
     responsible: string;
